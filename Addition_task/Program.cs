@@ -13,7 +13,7 @@ namespace Addition_task
 
             myDWithInputParameter = (myFirstParameter, mySecondParameter, myThirdParameter) => (myFirstParameter + mySecondParameter + myThirdParameter) / 3;
 
-            Console.WriteLine($"Среднее арифметическое равно ({firstParameter}+{secondParameter}+{thirdParameter})/3 = {myDWithInputParameter(firstParameter, secondParameter, thirdParameter)}");
+            Console.WriteLine($"Среднее арифметическое ({firstParameter}+{secondParameter}+{thirdParameter})/3 = {myDWithInputParameter(firstParameter, secondParameter, thirdParameter)}");
             Console.ReadKey();
         }
     }
